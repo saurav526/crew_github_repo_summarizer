@@ -3,7 +3,6 @@ from crewai.tools import tool
 
 GITHUB_API = "https://api.github.com"
 
-
 def _headers():
     return {
         "Accept": "application/vnd.github+json",

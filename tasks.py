@@ -1,6 +1,5 @@
 from crewai import Task
 
-
 def create_tasks(username, max_repos, agents):
     research_task = Task(
         description=f"""

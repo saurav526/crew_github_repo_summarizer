@@ -90,6 +90,10 @@ Copy `.env.example` to `.env`:
 ```env
 GROQ_API_KEY=your_actual_groq_api_key
 GROQ_MODEL=groq/llama-3.3-70b-versatile
+
+or====>
+HF_TOKEN="put your Hugging Face token here"
+HF_MODEL=openai/gpt-oss-120b
 ```
 
 Do not upload `.env` to GitHub.

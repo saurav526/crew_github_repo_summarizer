@@ -6,7 +6,7 @@ from tasks import create_tasks
 st.set_page_config(page_title="GitHub Repo Summarizer", page_icon="🤖", layout="wide")
 
 st.title("🤖 GitHub User Repository Summarizer")
-st.write("Enter a GitHub username and let a CrewAI multi-agent workflow analyze and summarize their public repositories.")
+st.write("Enter a GitHub username to analyze their public repositories and generate a structured summary.")
 
 username = st.text_input("GitHub Username", placeholder="e.g. saurav526")
 max_repos = st.slider("Maximum repositories to analyze", min_value=1, max_value=15, value=5)

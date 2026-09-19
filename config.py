@@ -3,8 +3,6 @@ from dotenv import load_dotenv
 from crewai import LLM
 
 load_dotenv()
-
-
 def get_llm():
 
     hf_token = os.getenv("HF_TOKEN")

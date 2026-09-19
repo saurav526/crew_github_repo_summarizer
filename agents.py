@@ -2,7 +2,6 @@ from crewai import Agent
 from tools import github_user_repositories, github_repository_details
 from config import get_llm
 
-
 def create_agents():
     llm = get_llm()
 
